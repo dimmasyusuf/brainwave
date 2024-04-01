@@ -8,12 +8,12 @@ export default function Collaboration() {
   return (
     <Section crosses>
       <div className="container lg:flex">
-        <div className="max-w-[25rem]">
+        <div className="mb-16 w-full lg:max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
             AI Chat App for seamless collaboration
           </h2>
 
-          <ul className="mb-10 max-w-[22rem] md:mb-14">
+          <ul className="mb-10 w-full md:mb-14 lg:max-w-[22rem]">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
@@ -31,7 +31,7 @@ export default function Collaboration() {
         </div>
 
         <div className="mt-4 lg:ml-auto xl:w-[38rem]">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mx-auto lg:mb-32 lg:w-[22rem]">
+          <p className="body-2 mb-16 text-n-4 lg:mx-auto lg:mb-32 lg:w-[22rem]">
             {collabText}
           </p>
 

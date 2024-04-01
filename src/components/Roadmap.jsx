@@ -70,7 +70,7 @@ export default function Roadmap() {
         </div>
 
         <div className="mt-12 flex justify-center md:mt-15 xl:mt-20">
-          <Button href="/roadmap">Our roadmap</Button>
+          <Button href="/#roadmap">Our roadmap</Button>
         </div>
       </div>
     </Section>

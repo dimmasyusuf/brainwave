@@ -14,7 +14,7 @@ export default function Benefits() {
           title="Chat Smarter, Not Harder with Brainwave"
         />
 
-        <div className="mb-10 flex flex-wrap gap-10">
+        <div className="mb-10 flex flex-wrap items-center justify-center gap-10">
           {benefits.map((item) => (
             <div
               className="relative block bg-[length:100%_100%] bg-no-repeat p-0.5 md:max-w-[24rem]"

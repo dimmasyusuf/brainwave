@@ -41,7 +41,7 @@ export default function Pricing() {
         <div className="mt-10 flex justify-center">
           <a
             className="border-b font-code text-xs font-bold uppercase tracking-wider"
-            href="/pricing"
+            href="#pricing"
           >
             See the full details
           </a>

@@ -29,7 +29,9 @@ export default function PricingList() {
 
           <Button
             className="mb-6 w-full"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href={
+              item.price ? "/#pricing" : "mailto:dimasyusufqurohman@gmail.com"
+            }
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
