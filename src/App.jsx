@@ -4,6 +4,7 @@ import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
       </div>
     </>
   );
